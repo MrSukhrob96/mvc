@@ -1,0 +1,42 @@
+{
+  "jobDatabase": {
+    "users": {
+      "data": [
+        {
+          "name": "Sukhrob",
+          "email": "sukhrobazimov1996@gmail.com",
+          "country": 1,
+          "age": 24,
+          "created_at": "2021-04-18",
+          "updated_at": "2021-04-18"
+        },
+        {
+          "name": "Ali",
+          "email": "alivali@gmail.com",
+          "country": 3,
+          "age": 18,
+          "created_at": "2021-04-19",
+          "updated_at": "2021-04-19"
+        }
+      ]
+    },
+    "country": {
+      "data": [
+        {
+          "id": 1,
+          "name": "Tajikistan",
+          "code": "872",
+          "created_at": "2021-04-18",
+          "updated_at": "2021-04-18"
+        },
+        {
+          "id": 2,
+          "name": "Russia",
+          "code": "810",
+          "created_at": "2021-04-19",
+          "updated_at": "2021-04-19"
+        }
+      ]
+    }
+  }
+}

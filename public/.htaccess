@@ -1,0 +1,12 @@
+<ifModule mod_rewrite.c>
+    Options -Multiviews
+
+    RewriteBase /mvc/public
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    AddDefaultCharset UTF-8
+    RewriteRule ^(.+)$ index.php?url=$1 [L,QSA]
+</ifModule>

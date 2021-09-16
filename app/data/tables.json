@@ -1,0 +1,36 @@
+{
+  "jobDatabase": {
+    "users": {
+      "params": {
+        "id": {
+          "type": "Integer"
+        },
+        "name": {
+          "type": "String"
+        },
+        "emails": {
+          "type": "String"
+        },
+        "country": {
+          "type": "Integer"
+        },
+        "age": {
+          "type": "Integer"
+        }
+      }
+    },
+    "country": {
+      "params": {
+        "id": {
+          "type": "Integer"
+        },
+        "name": {
+          "type": "String"
+        },
+        "code": {
+          "type": "String"
+        }
+      }
+    }
+  }
+}
